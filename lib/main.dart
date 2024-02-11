@@ -42,7 +42,73 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
       ),
-      body: const Text('Hasan'),
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                height: 200,
+                decoration: BoxDecoration(
+                  color: Theme.of(context).primaryColor,
+                  borderRadius: BorderRadius.circular(15),
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                height: 200,
+                decoration: BoxDecoration(
+                  color: const Color(0xFFB3005E),
+                  borderRadius: BorderRadius.circular(15),
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                height: 200,
+                decoration: BoxDecoration(
+                  color: const Color(0xFFFF8911),
+                  borderRadius: BorderRadius.circular(15),
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                height: 200,
+                decoration: BoxDecoration(
+                  color: const Color(0xFF3652AD),
+                  borderRadius: BorderRadius.circular(15),
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                height: 200,
+                decoration: BoxDecoration(
+                  color: const Color(0xFF5F8670),
+                  borderRadius: BorderRadius.circular(15),
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                height: 200,
+                decoration: BoxDecoration(
+                  color: const Color(0xFFB80000),
+                  borderRadius: BorderRadius.circular(15),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
